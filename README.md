@@ -1,8 +1,5 @@
 # CLAG: Adaptive Memory Organization via Agent-Driven Clustering for SLM Agents
 
-This repository contains the **ACL submission (anonymous) code** for the paper:
-
-**“CLAG: Adaptive Memory Organization via Agent-Driven Clustering for SLM Agents”**
 
 CLAG organizes agent memory via **agent-driven clustering** and performs retrieval in a **two-stage** manner
 (cluster selection → within-cluster retrieval). Please refer to the code for full implementation details.
@@ -82,7 +79,3 @@ Runs may produce logs and artifacts under folders such as:
 - `logs_CLAG/`
 - `results_CLAG/`
 
----
-
-## License
-This code package is provided for **ACL anonymous submission** purposes.
