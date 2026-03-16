@@ -13,7 +13,8 @@ CLAG employs an SLM-driven router to assign incoming memories to semantically co
 
 
 
-[Teaser Figure (PDF)](figure/motivation_figure.pdf)
+![Teaser Figure](figure/motivation_figure.png)
+([PDF](figure/motivation_figure.pdf))
 
 
 ---
@@ -26,7 +27,8 @@ CLAG addresses this problem with three key components:
 - **Localized Evolution**: refines and consolidates memories only within the routed cluster
 - **Cluster-Aware Two-Stage Retrieval**: first selects relevant clusters, then retrieves fine-grained evidence only inside them
 
-[Main Figure (PDF)](figure/main_figure.pdf)
+![Main Figure](figure/main_figure.png)
+([PDF](figure/main_figure.pdf))
 
 ---
 
@@ -147,7 +149,7 @@ Make sure your Ollama server is running locally and the specified model is avail
 To reproduce the main experiments, use `test_CLAG.py` with the target dataset and backend configuration.
 
 
-## Citation
+<!-- ## Citation
 
 If you find this repository useful, please cite:
 
@@ -158,4 +160,4 @@ If you find this repository useful, please cite:
   journal={arXiv preprint arXiv:xxxx.xxxxx},
   year={2026}
 }
-```
+``` -->
