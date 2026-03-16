@@ -14,7 +14,7 @@ CLAG employs an SLM-driven router to assign incoming memories to semantically co
 
 
 ![Teaser Figure](figure/motivation_figure.png)
-([PDF](figure/motivation_figure.pdf))
+<!-- ([PDF](figure/motivation_figure.pdf)) -->
 
 
 ---
@@ -28,7 +28,7 @@ CLAG addresses this problem with three key components:
 - **Cluster-Aware Two-Stage Retrieval**: first selects relevant clusters, then retrieves fine-grained evidence only inside them
 
 ![Main Figure](figure/main_figure.png)
-([PDF](figure/main_figure.pdf))
+<!-- ([PDF](figure/main_figure.pdf)) -->
 
 ---
 
