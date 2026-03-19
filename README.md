@@ -149,7 +149,7 @@ Make sure your Ollama server is running locally and the specified model is avail
 To reproduce the main experiments, use `test_CLAG.py` with the target dataset and backend configuration.
 
 
-<!-- ## Citation
+## Citation
 
 If you find this repository useful, please cite:
 
@@ -157,7 +157,7 @@ If you find this repository useful, please cite:
 @article{roh2026clag,
   title={CLAG: Adaptive Memory Organization via Agent-Driven Clustering for Small Language Model Agents},
   author={Roh, Taeyun and Jang, Wonjune and Jung, Junha and Kang, Jaewoo},
-  journal={arXiv preprint arXiv:xxxx.xxxxx},
+  journal={arXiv preprint arXiv:2603.15421},
   year={2026}
 }
-``` -->
+```
