@@ -4,18 +4,14 @@
 [![License](https://img.shields.io/badge/License-MIT-green.svg)]()
 [![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b.svg)]()
 
-<!-- > Official implementation of **CLAG**, a cluster-aware memory framework for small language model agents. -->
+> Official repository for the **Findings of ACL 2026** paper **"CLAG: Adaptive Memory Organization via Agent-Driven Clustering for Small Language Model Agents."**
 
-CLAG is a memory framework for **small language model (SLM) agents** that organizes long-horizon memory through **agent-driven clustering**. 
+CLAG is a memory framework for **small language model (SLM) agents** that organizes long-horizon memory through **agent-driven clustering**.
 
 CLAG employs an SLM-driven router to assign incoming memories to semantically coherent clusters and autonomously generates cluster-specific profiles—including topic summaries and descriptive tags—to establish each cluster as a self-contained functional unit.
 
-
-
-
 ![Teaser Figure](figure/motivation_figure.png)
 <!-- ([PDF](figure/motivation_figure.pdf)) -->
-
 
 ---
 
@@ -33,6 +29,7 @@ CLAG addresses this problem with three key components:
 ---
 
 ## Repository Structure
+
 ```text
 .
 ├── CLAG_memory.py                  # CLAG memory implementation
@@ -144,10 +141,13 @@ You can override this with:
 
 Make sure your Ollama server is running locally and the specified model is available.
 
+---
+
 ## Reproducibility
 
 To reproduce the main experiments, use `test_CLAG.py` with the target dataset and backend configuration.
 
+---
 
 ## Citation
 
