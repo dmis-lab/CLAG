@@ -54,7 +54,7 @@ CLAG addresses this problem with three key components:
 ### Setup
 
 ```bash
-git clone https://github.com/<your-org-or-user>/CLAG.git
+git clone https://github.com/dmis-lab/CLAG.git
 cd CLAG
 
 python -m venv .venv
