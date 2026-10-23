@@ -2,7 +2,7 @@
 
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue.svg)]()
 [![License](https://img.shields.io/badge/License-MIT-green.svg)]()
-[![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b.svg)](https://arxiv.org/abs/2603.15421)
+[![Paper](https://img.shields.io/badge/Paper-ACL%202026-b31b1b.svg)](https://aclanthology.org/2026.findings-acl.824/)
 
 > Official repository for the **Findings of ACL 2026** paper **"CLAG: Adaptive Memory Organization via Agent-Driven Clustering for Small Language Model Agents."**
 
@@ -157,13 +157,27 @@ To reproduce the main experiments, use `test_CLAG.py` with the target dataset an
 
 ## Citation
 
-If you find this repository useful, please cite:
+If you find this repository useful, please cite the [Findings of ACL 2026 paper](https://aclanthology.org/2026.findings-acl.824/):
 
 ```bibtex
-@article{roh2026clag,
-  title={CLAG: Adaptive Memory Organization via Agent-Driven Clustering for Small Language Model Agents},
-  author={Roh, Taeyun and Jang, Wonjune and Jung, Junha and Kang, Jaewoo},
-  journal={arXiv preprint arXiv:2603.15421},
-  year={2026}
+@inproceedings{roh-etal-2026-clag,
+  title = "{CLAG}: Adaptive Memory Organization via Agent-Driven Clustering for Small Language Model Agents",
+  author = "Roh, Taeyun  and
+    Jang, WonJune  and
+    Jung, Junha  and
+    Kang, Jaewoo",
+  editor = "Liakata, Maria  and
+    Moreira, Viviane P.  and
+    Zhang, Jiajun  and
+    Jurgens, David",
+  booktitle = "Findings of the {A}ssociation for {C}omputational {L}inguistics: {ACL} 2026",
+  month = jul,
+  year = "2026",
+  address = "San Diego, California, United States",
+  publisher = "Association for Computational Linguistics",
+  url = "https://aclanthology.org/2026.findings-acl.824/",
+  doi = "10.18653/v1/2026.findings-acl.824",
+  pages = "16707--16726",
+  ISBN = "979-8-89176-395-1"
 }
 ```
