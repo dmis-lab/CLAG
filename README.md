@@ -2,13 +2,15 @@
 
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue.svg)]()
 [![License](https://img.shields.io/badge/License-MIT-green.svg)]()
-[![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b.svg)]()
+[![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b.svg)](https://arxiv.org/abs/2603.15421)
 
 > Official repository for the **Findings of ACL 2026** paper **"CLAG: Adaptive Memory Organization via Agent-Driven Clustering for Small Language Model Agents."**
 
-CLAG is a memory framework for **small language model (SLM) agents** that organizes long-horizon memory through **agent-driven clustering**.
+CLAG is an **agent memory system designed for small language model (SLM) agents**. It organizes **long-term memory** through **agent-driven semantic clustering**, tailoring memory organization and retrieval to SLMs' sensitivity to irrelevant context.
 
 CLAG employs an SLM-driven router to assign incoming memories to semantically coherent clusters and autonomously generates cluster-specific profiles—including topic summaries and descriptive tags—to establish each cluster as a self-contained functional unit.
+
+**Keywords:** Agent memory · LLM memory · Small language models (SLMs) · Long-term memory · Memory-augmented agents · Semantic clustering
 
 ![Teaser Figure](figure/motivation_figure.png)
 <!-- ([PDF](figure/motivation_figure.pdf)) -->
@@ -16,6 +18,10 @@ CLAG employs an SLM-driven router to assign incoming memories to semantically co
 ---
 
 ## Overview
+
+### Why do SLM agents need a dedicated memory system?
+
+**SLM agents need memory systems optimized for their capabilities.** A single global retrieval pool can mix unrelated topics and expose an agent to distracting context. Small language models are especially sensitive to this irrelevant evidence, making focused memory retrieval essential. CLAG keeps memory updates local to coherent clusters and retrieves evidence in two stages to reduce cross-topic interference and keep retrieved context relevant.
 
 CLAG addresses this problem with three key components:
 
